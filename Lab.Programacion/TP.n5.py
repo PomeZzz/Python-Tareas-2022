@@ -1,6 +1,3 @@
-
-
-
 def pitagoras(l1, l2):
     from math import sqrt
     hipotenusa = sqrt((l2**2) + (l1**2))
@@ -24,7 +21,7 @@ def ej2():
 def bienEscrito(texto):
     L = texto[0]
 
-def ej2():
+def ej3():
     texto = input("Ingrese su texto")
     print(bienEscrito(texto))
 
@@ -39,14 +36,17 @@ def ej4():
     numero = int(input("Ingrese un numero: "))
     print(primo(numero))
 
-
 def ej5():
     numero = int(input("Ingrese un numero: "))
-    while True:
-        numero += 1
-        if primo(numero):
-            break
+    if primo(numero):
+        print("Es Primo")
+    else:
+
+        while True:
+            numero += 1
+            if primo(numero):
+                break
     
-    print(numero)
+        print(numero)
 
 ej5()
