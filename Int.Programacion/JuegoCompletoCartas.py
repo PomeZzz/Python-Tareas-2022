@@ -24,3 +24,5 @@ else:
     print("El Jugador 2 Gana con una puntuacion de: ",puntaje_segundo_jugador)
 
 print("Resultados:","\n payer 1:", puntaje_primer_jugador,"\nplayer 2:", puntaje_segundo_jugador)
+
+#goed

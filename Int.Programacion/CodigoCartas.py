@@ -39,4 +39,4 @@ def pruebas():
 
 
     print(k)
-
+    print(k)
