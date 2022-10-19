@@ -92,3 +92,5 @@ def cuentaVocalesLista(lista:list):
     return(stringmax)
 
 print(cuentaVocalesLista(lista))
+
+# Las funciones parciales son aquellas que nos permiten fiajr un cierto numero de argumentos de una funcion y generar una nueva, es decir si hay funciones parciales en este trabajo
